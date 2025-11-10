@@ -23,7 +23,8 @@ const greeting = {
   username: "David Ken",
   title: "Hi all, I'm Ken",
   subTitle: emoji(
-    "A passionate IT consultatant 🚀 Interested in pursuing a long-term career in IT-related consultancy, Enterprise Architecture, practice legal consultant, and Systems Development"),
+    "A passionate IT consultatant 🚀 Interested in pursuing a long-term career in IT-related consultancy, Enterprise Architecture, practice legal consultant, and Systems Development"
+  ),
   resumeLink:
     "https://drive.google.com/file/d/1SdWdAsRdaLTmkHLVqbasYfGNosNjUzHM/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -45,12 +46,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Your GO-TO Product Owner and Manager that is flexible to conducting tech-stack",
+  subTitle:
+    "Your GO-TO Product Owner and Manager that is flexible to conducting tech-stack",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive in aegentic workflows in such n8n workflows and API calls for business operations"),
+    emoji(
+      "⚡ Progressive in aegentic workflows in such n8n workflows and API calls for business operations"
+    ),
     emoji(
       "⚡ Aspiring Big Data Operations through Google cloud and visualization through Tableau"
     )
