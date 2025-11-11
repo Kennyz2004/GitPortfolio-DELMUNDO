@@ -285,7 +285,7 @@ const achievementSection = {
         }
       ]
     },
-
+//cool
     {
       title: "PWA Web App Developer",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
