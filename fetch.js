@@ -95,45 +95,4 @@ if (USE_GITHUB_DATA === "true") {
   req.end();
 }
 
-if (MEDIUM_USERNAME !== undefined) {
-  console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
-  const options = {
-    hostname: "api.rss2json.com",
-    path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
-    port: 443,
-    method: "GET"
-  };
-
-  const req = https.request(options, res => {
-    let mediumData = "";
-
-    console.log(`statusCode: ${res.statusCode}`);
-    if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
-    }
-
-    res.on("data", d => {
-      mediumData += d;
-    });
-    res.on("end", () => {
-      fs.writeFile("./public/blogs.json", mediumData, function (err) {
-        if (err) return console.log(err);
-        console.log("saved file to public/blogs.json");
-      });
-    });
-  });
-
-  req.on("error", error => {
-    throw error;
-  });
-
-  req.end();
-}
-
-if (USE_MEDIUM_DATA === "true" && process.env.MEDIUM_USERNAME) {
-  console.log(
-    `Medium fetch requested but still disabled. Set USE_MEDIUM_DATA to "true" and MEDIUM_USERNAME to fetch blogs.`
-  );
-} else {
-  console.log("Medium fetching is disabled.");
-}
+console.log("Medium fetching disabled. No API calls are made for Medium.");
