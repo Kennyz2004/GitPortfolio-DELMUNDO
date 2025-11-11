@@ -334,7 +334,26 @@ export {
   openSource,
   bigProjects,
   achievementSection,
+  //blogSection,
+  //talkSection,
   contactInfo,
+  //twitterDetails,
   isHireable,
   resumeSection
+};
+export const blogSection = {
+  title: "Blogs",
+  blogs: [] // empty array since Medium is disabled
+};
+export const talkSection = {
+  title: "talk",
+  blogs: [] // empty array since Medium is disabled
+};
+export const twitterDetails = {
+  title: "twitter",
+  blogs: [] // empty array since Medium is disabled
+};
+export const podcastSection = {
+  title: "podcast",
+  blogs: [] // empty array since Medium is disabled
 };
