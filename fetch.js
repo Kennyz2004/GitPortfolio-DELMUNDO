@@ -7,6 +7,7 @@ const GITHUB_TOKEN = process.env.REACT_APP_GITHUB_TOKEN;
 const GITHUB_USERNAME = process.env.GITHUB_USERNAME;
 const USE_GITHUB_DATA = process.env.USE_GITHUB_DATA;
 const MEDIUM_USERNAME = process.env.MEDIUM_USERNAME;
+const USE_MEDIUM_DATA = process.env.USE_MEDIUM_DATA || "false"; 
 
 const ERR = {
   noUserName:
