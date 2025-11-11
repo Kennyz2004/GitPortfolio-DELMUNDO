@@ -128,3 +128,11 @@ if (MEDIUM_USERNAME !== undefined) {
 
   req.end();
 }
+
+if (USE_MEDIUM_DATA === "true" && process.env.MEDIUM_USERNAME) {
+  console.log(
+    `Medium fetch requested but still disabled. Set USE_MEDIUM_DATA to "true" and MEDIUM_USERNAME to fetch blogs.`
+  );
+} else {
+  console.log("Medium fetching is disabled.");
+}
