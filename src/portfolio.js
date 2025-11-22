@@ -189,7 +189,7 @@ const workExperiences = {
     {
       role: "IT Intern ",
       company: "Verafede",
-      companylogo: require("./assets/images/verafede.png"),
+      companylogo: require("./assets/images/verafede.jpg"),
       date: "August 2022- November 2022",
       desc: "Draft an PRF proposal towards IT security of the organization and draft a disaster risk managment protocalls for malware attacks",
       descBullets: [
