@@ -113,7 +113,7 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
+      schoolName: "Colegio San Agustin Makati",
       logo: require("./assets/images/CSA.png"),
       subHeader: "High School Diploma",
       duration: "August 2017 - April 2020",
@@ -153,29 +153,50 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Education Innovation Fellowship (EIF) Intern ",
+      company: "Eskwelabs",
+      companylogo: require("./assets/images/eskwelabs.jpg"),
+      date: "September 2025-Present",
+      desc: "Part of the Advanced Learners Internship My duties are to utilize n8n & AI augmented systems to create better workflow automations for the organization",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Lead as Product Manger of a team in creating a comprehensive SOP for the Eskwelabs Hackathon, streamlining 200+ tasks across operations, communications, and participant management. ",
+        "Built and deployed 6 n8n automation workflows that cut manual work on checklist tracking and analytics data collection by 40%, improving event monitoring and reporting."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "RBBS Department  - Deputy to Chief Information Officer ",
+      company: "Security Bank Corporation",
+      companylogo: require("./assets/images/security-bank-icon.png"),
+      date: "June 2024- August 2024",
+      desc: "Under the STAR Internship Team, the goal of the program was to familiarize and educate graduating students on banking operations and apply personal expertise towards business SOP",
+      descBullets: [
+        "Evaluated 70+ RBBS change request tickets to calculate the monetary impact, enabling more accurate budgeting and prioritization of high-value initiatives.",
+        "Supported the Chief Information Officer in overseeing 2 scrum teams in the RBBS department that consist of 21 team members.",
+        "Planned and prioritized 9-11 change request tickets per sprint cycle for the RBBS department work to ensure clear direction of IT development tasks."
+      ]
+    
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      role: "Product Team Intern",
+      company: "Penbrothers Inc",
+      companylogo: require("./assets/images/penbrother.jpg"),
       date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Tasked to re-engineer current organizational practices of document managment and streamline document approval process through an IT solution",
+      descBullets: [
+        "Developed a Prototype Document Management System under Google Appscript code to streamline document Security and Approval between 17 different stakeholders.",
+        "Mapped and collaborated on end-to-end business process models with stakeholders from 4 departments, establishing a new and more efficient way of working for Penbrothers’ core document management process."
+      ]
+    },
+    {
+      role: "IT Intern ",
+      company: "Verafede",
+      companylogo: require("./assets/images/verafede.png"),
+      date: "August 2022- November 2022",
+      desc: "Draft an PRF proposal towards IT security of the organization and draft a disaster risk managment protocalls for malware attacks",
+      descBullets: [
+        "Managed a team of IT and Computer Science interns to advise the company on integrating cybersecurity solutions to prevent email phishing.",
+        "Researched and budgeted a product proposal form on IT solutions for cyber security that complied with ISO standards for executive, managerial, and departmental data privacy."
+      ]
     }
   ]
 };
@@ -191,29 +212,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Past Projects",
+  subtitle: "Websites and Data Analytics Projects Done personally or from work",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/MISA.jpg"),
+      projectName: "Ateneo Misa Website Homepage",
+      projectDesc: "Worked on the backend database for modeling voting process for upcoming election of officers",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://misa.org.ph/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/AAP.jpg"),
+      projectName: "AAP analytics Integration with CRM",
+      projectDesc: "Implement towards the backend of the website to add members through zoho ecosystem and categorize by membership subscription to avail for perks",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.aap.ph/"
         }
       ]
     }
