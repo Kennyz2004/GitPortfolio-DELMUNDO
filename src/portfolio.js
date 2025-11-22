@@ -23,7 +23,7 @@ const greeting = {
   username: "David Ken",
   title: "Hi all, I'm Ken",
   subTitle: emoji(
-    "A passionate IT consultatant 🚀 Interested in pursuing a long-term career in IT-related consultancy, Enterprise Architecture, practice legal consultant, and Systems Development"
+    "Aspiring IT Consultant seeking to drive innovation by leveraging a strong understanding of the product development lifecycle and data-driven decision making  to deliver impactful, technology-driven solutions."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1SdWdAsRdaLTmkHLVqbasYfGNosNjUzHM/view?usp=sharing", // Set to empty to hide the button
@@ -104,21 +104,24 @@ const educationInfo = {
     {
       schoolName: "Ateneo de Manila University",
       logo: require("./assets/images/ateneoicon.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Bachelors in Management Information Systems",
+      duration: "August 2021 - July 2025",
+      desc: "Specialized in Data Analytics",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Google Developers Student Clubs Loyola - Operations Officer",
+        "Management Information Systems Association (MISA) - IT Skills & Training and Networking Officer",
       ]
     },
     {
       schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      logo: require("./assets/images/CSA.png"),
+      subHeader: "High School Diploma",
+      duration: "August 2017 - April 2020",
+      desc: " Humanities and Social Sciences (HUMSS)",
+      descBullets: [
+        "Academic Distiction Certificate- Top 50",
+        "Sky Experience Award - Finance Head for student activities council"
+      ]
     }
   ]
 };
