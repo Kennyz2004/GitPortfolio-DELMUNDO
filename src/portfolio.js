@@ -91,7 +91,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Jupyter Notebook",
       fontAwesomeClassname: "fab fa-python"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -109,7 +109,7 @@ const educationInfo = {
       desc: "Specialized in Data Analytics",
       descBullets: [
         "Google Developers Student Clubs Loyola - Operations Officer",
-        "Management Information Systems Association (MISA) - IT Skills & Training and Networking Officer",
+        "Management Information Systems Association (MISA) - IT Skills & Training and Networking Officer"
       ]
     },
     {
@@ -174,7 +174,6 @@ const workExperiences = {
         "Supported the Chief Information Officer in overseeing 2 scrum teams in the RBBS department that consist of 21 team members.",
         "Planned and prioritized 9-11 change request tickets per sprint cycle for the RBBS department work to ensure clear direction of IT development tasks."
       ]
-    
     },
     {
       role: "Product Team Intern",
@@ -218,7 +217,8 @@ const bigProjects = {
     {
       image: require("./assets/images/MISA.jpg"),
       projectName: "Ateneo Misa Website Homepage",
-      projectDesc: "Worked on the backend database for modeling voting process for upcoming election of officers",
+      projectDesc:
+        "Worked on the backend database for modeling voting process for upcoming election of officers",
       footerLink: [
         {
           name: "Visit Website",
@@ -230,7 +230,8 @@ const bigProjects = {
     {
       image: require("./assets/images/AAP.jpg"),
       projectName: "AAP analytics Integration with CRM",
-      projectDesc: "Implement towards the backend of the website to add members through zoho ecosystem and categorize by membership subscription to avail for perks",
+      projectDesc:
+        "Implement towards the backend of the website to add members through zoho ecosystem and categorize by membership subscription to avail for perks",
       footerLink: [
         {
           name: "Visit Website",
