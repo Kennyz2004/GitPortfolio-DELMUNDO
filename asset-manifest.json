@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GitPortfolio-DELMUNDO/static/css/main.928743a4.css",
-    "main.js": "/GitPortfolio-DELMUNDO/static/js/main.8d3d113c.js",
+    "main.js": "/GitPortfolio-DELMUNDO/static/js/main.b3f4c768.js",
     "static/css/64.bba8fa55.chunk.css": "/GitPortfolio-DELMUNDO/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/GitPortfolio-DELMUNDO/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/GitPortfolio-DELMUNDO/static/css/769.b3cbb36b.chunk.css",
@@ -9,24 +9,24 @@
     "static/media/Montserrat-Regular.ttf": "/GitPortfolio-DELMUNDO/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/GitPortfolio-DELMUNDO/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/resume.pdf": "/GitPortfolio-DELMUNDO/static/media/resume.fb627bbd71a945f23de5.pdf",
+    "static/media/penbrother.jpg": "/GitPortfolio-DELMUNDO/static/media/penbrother.621efa23e7623d0c657f.jpg",
     "static/media/ateneoicon.png": "/GitPortfolio-DELMUNDO/static/media/ateneoicon.b9c66aed22bd89dbfa84.png",
     "static/media/manOnTable.svg": "/GitPortfolio-DELMUNDO/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/AAP.jpg": "/GitPortfolio-DELMUNDO/static/media/AAP.4d769e41d40602479174.jpg",
     "static/media/CSA.png": "/GitPortfolio-DELMUNDO/static/media/CSA.401b2f218e212bed8ad7.png",
     "static/media/contactMailDark.svg": "/GitPortfolio-DELMUNDO/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
-    "static/media/quoraLogo.png": "/GitPortfolio-DELMUNDO/static/media/quoraLogo.85eb29f4d52320c8ed99.png",
     "static/media/developerActivity.svg": "/GitPortfolio-DELMUNDO/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/eskwelabs.jpg": "/GitPortfolio-DELMUNDO/static/media/eskwelabs.82512f88da47a5ffe5ad.jpg",
     "static/media/googleAssistantLogo.webp": "/GitPortfolio-DELMUNDO/static/media/googleAssistantLogo.f720c71652579588524a.webp",
-    "static/media/airbnbLogo.png": "/GitPortfolio-DELMUNDO/static/media/airbnbLogo.e8497507db673acd3991.png",
-    "static/media/facebookLogo.png": "/GitPortfolio-DELMUNDO/static/media/facebookLogo.f46d68b24e9b4f73ee8b.png",
+    "static/media/security-bank-icon.png": "/GitPortfolio-DELMUNDO/static/media/security-bank-icon.263c47c86ce3c3eddd2e.png",
+    "static/media/verafede.jpg": "/GitPortfolio-DELMUNDO/static/media/verafede.870903a2a2da53a97853.jpg",
     "static/media/codeInLogo.webp": "/GitPortfolio-DELMUNDO/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
     "static/media/skill.svg": "/GitPortfolio-DELMUNDO/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/pwaLogo.webp": "/GitPortfolio-DELMUNDO/static/media/pwaLogo.8bf2293da0ca66249e37.webp",
-    "static/media/saayaHealthLogo.webp": "/GitPortfolio-DELMUNDO/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
-    "static/media/nextuLogo.webp": "/GitPortfolio-DELMUNDO/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/GitPortfolio-DELMUNDO/index.html",
     "static/media/talksCardBack.svg": "/GitPortfolio-DELMUNDO/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.928743a4.css.map": "/GitPortfolio-DELMUNDO/static/css/main.928743a4.css.map",
-    "main.8d3d113c.js.map": "/GitPortfolio-DELMUNDO/static/js/main.8d3d113c.js.map",
+    "main.b3f4c768.js.map": "/GitPortfolio-DELMUNDO/static/js/main.b3f4c768.js.map",
     "64.bba8fa55.chunk.css.map": "/GitPortfolio-DELMUNDO/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/GitPortfolio-DELMUNDO/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/GitPortfolio-DELMUNDO/static/css/769.b3cbb36b.chunk.css.map",
@@ -34,6 +34,6 @@
   },
   "entrypoints": [
     "static/css/main.928743a4.css",
-    "static/js/main.8d3d113c.js"
+    "static/js/main.b3f4c768.js"
   ]
 }
