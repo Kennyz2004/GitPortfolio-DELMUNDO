@@ -247,7 +247,7 @@ const dataProjects = {
   subtitle: "Data Analytics Projects done for personal or educational uses",
   projects: [
     {
-      image: require(".assetsimagesco2 story.png"),
+      image: require("./assets/images/co2 story.png"),
       projectName: "The Co2 Carbon Story of Brunei ",
       projectDesc:
         "Descriptive and Perscriptive analysis of Brunei's Carbon issue. Indept look into Co2 per Capita trends and sources of Co2 Emission",
