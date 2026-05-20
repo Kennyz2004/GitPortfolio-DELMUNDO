@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Aspiring IT Consultant seeking to drive innovation by leveraging a strong understanding of the product development lifecycle and data-driven decision making  to deliver impactful, technology-driven solutions."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -155,8 +154,7 @@ const workExperiences = {
     {
       role: "Education Innovation Fellowship (EIF) Intern ",
       company: "Eskwelabs",
-      companylogo: require(".\assets\images\eskwelabs.jpg" 
-      ),
+      companylogo: require(".assetsimageseskwelabs.jpg"),
       date: "September 2025-Present",
       desc: "Part of the Advanced Learners Internship My duties are to utilize n8n & AI augmented systems to create better workflow automations for the organization",
       descBullets: [
@@ -244,13 +242,12 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
-
 const dataProjects = {
   title: "Data Analytics Studies",
   subtitle: "Data Analytics Projects done for personal or educational uses",
   projects: [
     {
-      image: require(".\assets\images\co2 story.png"),
+      image: require(".assetsimagesco2 story.png"),
       projectName: "The Co2 Carbon Story of Brunei ",
       projectDesc:
         "Descriptive and Perscriptive analysis of Brunei's Carbon issue. Indept look into Co2 per Capita trends and sources of Co2 Emission",
@@ -262,8 +259,9 @@ const dataProjects = {
       ]
     },
     {
-      image: require(".\assets\images\care-to-code.png"),
-      projectName: "From Care to Code: A Data-Driven Guide for Healthcare Professionals Transitioning into Analytics",
+      image: require(".assetsimagescare-to-code.png"),
+      projectName:
+        "From Care to Code: A Data-Driven Guide for Healthcare Professionals Transitioning into Analytics",
       projectDesc:
         "Descriptive survey of Knowledge domain prioritization for Healthcare workers going into the Analytics Feild.",
       footerLink: [
@@ -290,7 +288,7 @@ const achievementSection = {
       title: "Microsoft Power BI Data Analyst Professional Certificate",
       subtitle:
         "Coursera Course |Business Intelligence Course: Applied data cleaning methods towards the ETL process for data analysis",
-      image: require(".\assets\images\microsoft-pl-300.png"),
+      image: require(".assetsimagesmicrosoft-pl-300.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -303,7 +301,7 @@ const achievementSection = {
       title: "Alteryx Designer Core Certificate",
       subtitle:
         "Alteryx |Alteryx Designer Software : Proficiency in using Alteryx Designer for data blending, cleaning, and analysis.",
-      image: require(".\assets\images\twitter_thumb_201604_Certification_Designer_Core.png"),
+      image: require(".assetsimages\twitter_thumb_201604_Certification_Designer_Core.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -316,7 +314,7 @@ const achievementSection = {
       title: "Eskwelabs Data Analytics Program",
       subtitle:
         "Eskwelabs |SQL, Tableau, Power BI, Python : Intermediate SQL, Python, and Tableau training on Labor research and Environmental Cases.",
-      image: require(".\assets\images\eskwelabs.jpg"),
+      image: require(".assetsimageseskwelabs.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
