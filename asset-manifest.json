@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GitPortfolio-DELMUNDO/static/css/main.928743a4.css",
-    "main.js": "/GitPortfolio-DELMUNDO/static/js/main.d04471bd.js",
+    "main.js": "/GitPortfolio-DELMUNDO/static/js/main.f6a5c635.js",
     "static/css/64.bba8fa55.chunk.css": "/GitPortfolio-DELMUNDO/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/GitPortfolio-DELMUNDO/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/GitPortfolio-DELMUNDO/static/css/769.b3cbb36b.chunk.css",
@@ -27,7 +27,7 @@
     "index.html": "/GitPortfolio-DELMUNDO/index.html",
     "static/media/talksCardBack.svg": "/GitPortfolio-DELMUNDO/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.928743a4.css.map": "/GitPortfolio-DELMUNDO/static/css/main.928743a4.css.map",
-    "main.d04471bd.js.map": "/GitPortfolio-DELMUNDO/static/js/main.d04471bd.js.map",
+    "main.f6a5c635.js.map": "/GitPortfolio-DELMUNDO/static/js/main.f6a5c635.js.map",
     "64.bba8fa55.chunk.css.map": "/GitPortfolio-DELMUNDO/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/GitPortfolio-DELMUNDO/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/GitPortfolio-DELMUNDO/static/css/769.b3cbb36b.chunk.css.map",
@@ -35,6 +35,6 @@
   },
   "entrypoints": [
     "static/css/main.928743a4.css",
-    "static/js/main.d04471bd.js"
+    "static/js/main.f6a5c635.js"
   ]
 }
