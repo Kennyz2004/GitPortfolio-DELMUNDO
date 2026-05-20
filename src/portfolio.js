@@ -26,7 +26,7 @@ const greeting = {
     "Aspiring IT Consultant seeking to drive innovation by leveraging a strong understanding of the product development lifecycle and data-driven decision making  to deliver impactful, technology-driven solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1SdWdAsRdaLTmkHLVqbasYfGNosNjUzHM/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -155,7 +155,8 @@ const workExperiences = {
     {
       role: "Education Innovation Fellowship (EIF) Intern ",
       company: "Eskwelabs",
-      companylogo: require("./assets/images/eskwelabs.jpg"),
+      companylogo: require(".\assets\images\eskwelabs.jpg" 
+      ),
       date: "September 2025-Present",
       desc: "Part of the Advanced Learners Internship My duties are to utilize n8n & AI augmented systems to create better workflow automations for the organization",
       descBullets: [
@@ -212,7 +213,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Past Projects",
-  subtitle: "Websites and Data Analytics Projects Done personally or from work",
+  subtitle: "Websites coded in the past for organizations",
   projects: [
     {
       image: require("./assets/images/MISA.jpg"),
@@ -243,6 +244,39 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
+
+const dataProjects = {
+  title: "Data Analytics Studies",
+  subtitle: "Data Analytics Projects done for personal or educational uses",
+  projects: [
+    {
+      image: require(".\assets\images\co2 story.png"),
+      projectName: "The Co2 Carbon Story of Brunei ",
+      projectDesc:
+        "Descriptive and Perscriptive analysis of Brunei's Carbon issue. Indept look into Co2 per Capita trends and sources of Co2 Emission",
+      footerLink: [
+        {
+          name: "Visit Presentation",
+          url: "https://docs.google.com/presentation/d/e/2PACX-1vT8cOvuXyflTnqc7iE-N_3YNYU3l6U0delxXDf3r6SRahka5bT9EwicV1g2FRsbiXwG8HY0BmJxVXPa/pub?start=false&loop=false&delayms=3000"
+        }
+      ]
+    },
+    {
+      image: require(".\assets\images\care-to-code.png"),
+      projectName: "From Care to Code: A Data-Driven Guide for Healthcare Professionals Transitioning into Analytics",
+      projectDesc:
+        "Descriptive survey of Knowledge domain prioritization for Healthcare workers going into the Analytics Feild.",
+      footerLink: [
+        {
+          name: "Visit Presentation",
+          url: "https://docs.google.com/presentation/d/e/2PACX-1vSJSLFw5XADShRuKW-EFMQ972aUmRrh91JlyzHNuC2j9MBGpjE5kVXfvhDBSW9OoJFUaR67bILhROOU/pub?start=false&loop=false&delayms=3000"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
 // Achievement Section
 // Include certificates, talks etc
 
@@ -253,50 +287,41 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Microsoft Power BI Data Analyst Professional Certificate",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Coursera Course |Business Intelligence Course: Applied data cleaning methods towards the ETL process for data analysis",
+      image: require(".\assets\images\microsoft-pl-300.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certification",
+          url: "https://drive.google.com/file/d/1PlC-ZI2ziaFneeIcvJ_lcInUx-QCjSpM/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Alteryx Designer Core Certificate",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Alteryx |Alteryx Designer Software : Proficiency in using Alteryx Designer for data blending, cleaning, and analysis.",
+      image: require(".\assets\images\twitter_thumb_201604_Certification_Designer_Core.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certification",
+          url: "https://drive.google.com/file/d/13T2T4SXFjyBBmZ-fZeTCimmoTNiRAS91/view?usp=sharing"
         }
       ]
     },
-    //cool
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Eskwelabs Data Analytics Program",
+      subtitle:
+        "Eskwelabs |SQL, Tableau, Power BI, Python : Intermediate SQL, Python, and Tableau training on Labor research and Environmental Cases.",
+      image: require(".\assets\images\eskwelabs.jpg"),
+      imageAlt: "Google Assistant Action Logo",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certification",
+          url: "https://drive.google.com/file/d/1Y6om_UBhpxkTpqEVL5UVbVWGoBQgIyBB/view?usp=sharing"
         }
       ]
     }
@@ -334,6 +359,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  dataProjects,
   achievementSection,
   //blogSection,
   //talkSection,
