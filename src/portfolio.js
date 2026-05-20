@@ -23,7 +23,7 @@ const greeting = {
   username: "David Ken",
   title: "Hi all, I'm Ken",
   subTitle: emoji(
-    "Aspiring IT Consultant seeking to drive innovation by leveraging a strong understanding of the product development lifecycle and data-driven decision making  to deliver impactful, technology-driven solutions."
+    "Aspiring Data Analyst with hands-on experience in operational data quality, automated reporting workflows, and multi-stakeholder data coordination. Skilled in SQL, Python, and BI tools to analyze trends, support decision-making, and improve performance."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -154,7 +154,7 @@ const workExperiences = {
     {
       role: "Education Innovation Fellowship (EIF) Intern ",
       company: "Eskwelabs",
-      companylogo: require("./assets/images/eskwelabs.jpg"),
+      companylogo: require("./assets/images/1be0dc35-7f0e-4b8a-a743-9008907aefcf.png"),
       date: "September 2025-Present",
       desc: "Part of the Advanced Learners Internship My duties are to utilize n8n & AI augmented systems to create better workflow automations for the organization",
       descBullets: [
@@ -314,7 +314,7 @@ const achievementSection = {
       title: "Eskwelabs Data Analytics Program",
       subtitle:
         "Eskwelabs |SQL, Tableau, Power BI, Python : Intermediate SQL, Python, and Tableau training on Labor research and Environmental Cases.",
-      image: require("./assets/images/eskwelabs.jpg"),
+      image: require("./assets/images/1be0dc35-7f0e-4b8a-a743-9008907aefcf.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
