@@ -154,7 +154,7 @@ const workExperiences = {
     {
       role: "Education Innovation Fellowship (EIF) Intern ",
       company: "Eskwelabs",
-      companylogo: require(".assetsimageseskwelabs.jpg"),
+      companylogo: require("./assets/images/eskwelabs.jpg"),
       date: "September 2025-Present",
       desc: "Part of the Advanced Learners Internship My duties are to utilize n8n & AI augmented systems to create better workflow automations for the organization",
       descBullets: [
@@ -259,7 +259,7 @@ const dataProjects = {
       ]
     },
     {
-      image: require(".assetsimagescare-to-code.png"),
+      image: require("./assets/images/care-to-code.png"),
       projectName:
         "From Care to Code: A Data-Driven Guide for Healthcare Professionals Transitioning into Analytics",
       projectDesc:
@@ -288,7 +288,7 @@ const achievementSection = {
       title: "Microsoft Power BI Data Analyst Professional Certificate",
       subtitle:
         "Coursera Course |Business Intelligence Course: Applied data cleaning methods towards the ETL process for data analysis",
-      image: require(".assetsimagesmicrosoft-pl-300.png"),
+      image: require("./assets/images/microsoft-pl-300.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -301,7 +301,7 @@ const achievementSection = {
       title: "Alteryx Designer Core Certificate",
       subtitle:
         "Alteryx |Alteryx Designer Software : Proficiency in using Alteryx Designer for data blending, cleaning, and analysis.",
-      image: require(".assetsimages\twitter_thumb_201604_Certification_Designer_Core.png"),
+      image: require("./assets/images/twitter_thumb_201604_Certification_Designer_Core.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
@@ -314,7 +314,7 @@ const achievementSection = {
       title: "Eskwelabs Data Analytics Program",
       subtitle:
         "Eskwelabs |SQL, Tableau, Power BI, Python : Intermediate SQL, Python, and Tableau training on Labor research and Environmental Cases.",
-      image: require(".assetsimageseskwelabs.jpg"),
+      image: require("./assets/images/eskwelabs.jpg"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
