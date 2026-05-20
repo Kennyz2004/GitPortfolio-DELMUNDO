@@ -237,12 +237,37 @@ const bigProjects = {
           url: "https://www.aap.ph/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/co2 story.png"),
+      projectName: "The Co2 Carbon Story of Brunei ",
+      projectDesc:
+        "Descriptive and Perscriptive analysis of Brunei's Carbon issue. Indept look into Co2 per Capita trends and sources of Co2 Emission",
+      footerLink: [
+        {
+          name: "Visit Presentation",
+          url: "https://docs.google.com/presentation/d/e/2PACX-1vT8cOvuXyflTnqc7iE-N_3YNYU3l6U0delxXDf3r6SRahka5bT9EwicV1g2FRsbiXwG8HY0BmJxVXPa/pub?start=false&loop=false&delayms=3000"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/care-to-code.png"),
+      projectName:
+        "From Care to Code: A Data-Driven Guide for Healthcare Professionals Transitioning into Analytics",
+      projectDesc:
+        "Descriptive survey of Knowledge domain prioritization for Healthcare workers going into the Analytics Feild.",
+      footerLink: [
+        {
+          name: "Visit Presentation",
+          url: "https://docs.google.com/presentation/d/e/2PACX-1vSJSLFw5XADShRuKW-EFMQ972aUmRrh91JlyzHNuC2j9MBGpjE5kVXfvhDBSW9OoJFUaR67bILhROOU/pub?start=false&loop=false&delayms=3000"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
-const isHireable = {
+const dataProjects = {
   title: "Data Analytics Studies",
   subtitle: "Data Analytics Projects done for personal or educational uses",
   projects: [
@@ -357,6 +382,7 @@ export {
   workExperiences,
   openSource,
   bigProjects,
+  dataProjects,
   achievementSection,
   //blogSection,
   //talkSection,
