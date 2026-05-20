@@ -242,7 +242,7 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
-const dataProjects = {
+const isHireable = {
   title: "Data Analytics Studies",
   subtitle: "Data Analytics Projects done for personal or educational uses",
   projects: [
@@ -357,7 +357,6 @@ export {
   workExperiences,
   openSource,
   bigProjects,
-  dataProjects,
   achievementSection,
   //blogSection,
   //talkSection,
